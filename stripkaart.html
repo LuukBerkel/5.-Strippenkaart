@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Long Image</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+        }
+
+        img {
+            width: 100%; /* Make the image fill the width of the div */
+            height: auto; /* Maintain aspect ratio */
+			vertical-align: top;
+        }
+		.logo-container {
+            background-color: white;
+            padding: 10px;
+            border-radius: 10%;
+            box-shadow: 0px 0px 25px 0px blue;
+            position: fixed;
+			width:200px;
+			height:200px;
+            bottom: 20px;
+            left: 20px;
+            z-index: 1000;
+        }
+    </style>
+</head>
+<body>
+	<div class="logo-container">
+	<!-- Replace 'YOUR_LOGO_URL' with the actual URL of your PNG logo -->
+		<img src="logo.png" alt="Logo">
+    </div>
+    <img src="stripkaart.png" alt="Long Image">
+
+	<div style="height: 200px;  background: black;  vertical-align: top;"</div>
+</body>
+</html>
